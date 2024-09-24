@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New Test Suite">
+    <test verbose="2" preserve-order="true" name="APIAutomation">
+
+        <classes>
+            <class name="Examples.Examples21092024.TestNGExamples.CRUD.TestCaseIntegration">
+                <methods>
+                    <include name="test_updateBooking_PUT"/>
+                    <include name="test_updateBooking_GET"/>
+                    <include name="test_deleteBooking_DELETE"/>
+                    <include name="test_DeleteBooking_GET"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

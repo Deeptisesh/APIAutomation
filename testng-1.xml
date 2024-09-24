@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New Test Suite">
+    <test verbose="2" preserve-order="true" name="APIAutomation">
+    
+        <groups>
+            <run>
+                <include name="dev"></include>
+                <exclude name="preprod"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="Examples.Examples21092024.TestNGExamples.Test005">
+                
+            </class>
+        </classes>
+    </test>
+</suite>
